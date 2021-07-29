@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Primeiro Projeto Android</string>
+    <string name="app_name" translatable="false">Primeiro Projeto Android</string>
+    <string name="save_label">Save</string>
+    <string name="e_mail_label">E-mail</string>
+    <string name="name_label">Nome</string>
+    <string name="password_label">password</string>
+    <string name="greating_text">Bem-vindo ao nosso app!</string>
+    <string name="message_error">Por favor verifique todos os campos para continuar</string>
+    <string name="message_test">Testando nossa interface de click</string>
+    <string name="test">Test</string>
+    <string name="title_activity_compose">ComposeActivity</string>
+
 </resources>

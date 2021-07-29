@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="app_name">Primeiro Projeto Android</string>
+    <string name="save_label">Save</string>
+    <string name="e_mail_label">E-mail</string>
+    <string name="name_label">Nome</string>
+    <string name="password_label">password</string>
+    <string name="greating_text">Bem-vindo ao nosso app!</string>
+</resources>
