@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         buttonTest.setOnClickListener(this)
 
 
+            SingletonTest.uid
+
+
         /**      Click mais simples utilizando lambda */
 //        findViewById<Button>(R.id.buttonSave).apply {
 //            setOnClickListener {
@@ -89,6 +92,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         if (form.checkAllFields()) {
+
+            SingletonTest.uid = "777777777"
+
 
             val intent = Intent(this, ApplicationActivity::class.java)
             startActivity(intent)

@@ -1,6 +1,8 @@
 package com.proway.primeiroprojetoandroid.classes
 
-class Cachorro() : Animal("mamifero") {
+class Cachorro(
+    val nome : String
+) : Animal("mamifero") {
 
     override fun movimentar() {
         super.movimentar()
@@ -8,7 +10,7 @@ class Cachorro() : Animal("mamifero") {
     }
 
     override fun ruido(): String {
-        TODO("Not yet implemented")
+        return "au au..."
     }
 
     override fun silencio(): String {

@@ -1,6 +1,6 @@
 package com.proway.primeiroprojetoandroid.classes
 
-class Cobra : Animal("reptil"), Som {
+class Cobra(val veneno: Boolean) : Animal("reptil"), Som {
 
     override fun movimentar() {
         println("Cobra rastejando")

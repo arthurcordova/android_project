@@ -7,10 +7,11 @@ import android.util.Patterns
 class Veiculo(
     var motor: String,
     var combustivel: String,
+    var tipoVeiculo: TipoVeiculo?
 ) : Som {
-    constructor() : this("", "")
+    constructor() : this("", "",null)
 
-    constructor(motor: String) : this(motor, "")
+    constructor(motor: String) : this(motor, "", null)
 
     fun verificarMotor(): Boolean {
 
