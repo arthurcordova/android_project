@@ -37,6 +37,9 @@ fun main() {
         println(it)
     }
 
+    val arrayDeNomes = arrayOf("arthur", "aline", "joaquim", "pedro")
+    arrayDeNomes.filter { it.startsWith("a") && it.endsWith("r") }.forEach { println(it) }
+
 
     val num = -1
     val retorno =
